@@ -4,12 +4,12 @@ Time to apply these new tools!
 
 The goal of this lab is to allow users of this blog-style application to create and edit authors and posts without worrying about typos or other mistakes leading to error-prone form submissions.
 
-For example, if someone creates a blog post with less than 100 characters of content, it's likely that they accidentally pasted the wrong text, or misunderstood which information goes into which field. We can improve the user's experience and the stability of our codebase by notifying users about these kinds of mistakes *before* bad data gets into the database.
+For example, if someone creates a blog post with less than 100 characters of content, it's likely that they accidentally pasted the wrong text, or misunderstood which information goes into which field. We can improve the user's experience and the stability of our codebase by notifying users about these kinds of mistakes _before_ bad data gets into the database.
 
 # Objectives
 
 - Define validations on a model
-- Use a conditional statement in an action to render different responses based on the validation state of a model
+- Use the validation state of a model in a response conditional in an action
 - Re-render a form with validation errors
 - Validate a create action
 - Validate an update action
@@ -37,4 +37,4 @@ To complete this lab, you will need to:
 1. Change `AuthorsController#create` to re-render the form if the new author is invalid.
 1. Change `PostsController#update` to re-render the form if the updated post is invalid.
 
-<p class='util--hide'>View <a href='https://learn.co/lessons/validations-in-controller-actions-rails-lab' title='Validations In Controller Actions Lab'>Validations In Controller Actions Lab</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/validations-in-controller-actions-rails-lab' title='Validations In Controller Actions Lab'>Validations In Controller Actions Lab</a> on Learn.co and start learning to code for free.</p>
